@@ -68,13 +68,13 @@ img {
 }
 
 /* site nav */
+.block-nav {
+  display: flex;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
-}
-
-.block-nav {
-  display: flex;
 }
 
 /* logo nav */
@@ -143,11 +143,11 @@ img {
   opacity: 1;
 }
 
-.site-nav__link.current::after {
+.site-nav__link--current::after {
   opacity: 1;
 }
 
-.site-nav__link.current {
+.site-nav__link--current {
   color: var(--accent-text-color);
 }
 
