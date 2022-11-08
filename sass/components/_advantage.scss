@@ -1,4 +1,8 @@
-.advantage__img {
+.advantage {
+
+}
+
+&__img {
     display: flex;
     width: 270px;
     height: 120px;
@@ -10,7 +14,7 @@
     border-radius: 4px;
 }
 
-.advantage__title {
+&__title {
     margin-bottom: 10px;
 
     text-transform: uppercase;
@@ -19,7 +23,7 @@
     line-height: 1.14;
 }
 
-.advantage__text {
+&__text {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 14px;

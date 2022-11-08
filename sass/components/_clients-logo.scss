@@ -1,4 +1,8 @@
-.clients-logo__link {
+.clients-logo {
+
+}
+
+&__link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -15,8 +19,8 @@
     transition-timing-function: var(--transition-cubic-bezier), var(--transition-cubic-bezier);
 }
 
-.clients-logo__link:hover,
-.clients-logo__link:focus {
+&__link:hover,
+&__link:focus {
     fill: var(--accent-text-color);
     border-color: var(--accent-text-color);
 }

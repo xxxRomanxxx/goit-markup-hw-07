@@ -1,8 +1,12 @@
-.mailing__form {
+.mailing {
+
+}
+
+&__form {
     margin-left: 93px;
 }
 
-.mailing__text {
+&__text {
     margin-bottom: 20px;
 
     text-transform: uppercase;
@@ -11,7 +15,7 @@
     line-height: 1.14;
 }
 
-.mailing__input {
+&__input {
     margin-right: 12px;
     padding-left: 16px;
     width: 358px;
@@ -23,7 +27,7 @@
     border-radius: 4px;
 }
 
-.mailing__button {
+&__button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +51,7 @@
     transition-timing-function: var(--transition-cubic-bezier), var(--transition-cubic-bezier), var(--transition-cubic-bezier);
 }
 
-.mailing__button:hover {
+&__button:hover {
     color: var(--title-text-color);
     background-color: var(--background-color-secondary);
     fill: var(--title-text-color);

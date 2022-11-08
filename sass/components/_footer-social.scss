@@ -1,4 +1,8 @@
-.footer-social__text {
+.footer-social {
+
+}
+
+&__text {
     margin-bottom: 20px;
 
     text-transform: uppercase;
@@ -7,13 +11,13 @@
     line-height: 1.14;
 }
 
-.footer-social__list {
+&__list {
     display: flex;
     gap: 10px;
     list-style: none;
 }
 
-.footer-social__link {
+&__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -27,7 +31,7 @@
     transition-timing-function: var(--transition-cubic-bezier);
 }
 
-.footer-social__link:hover,
-.footer-social__link:focus {
+&__link:hover,
+&__link:focus {
     background-color: var(--accent-text-color);
 }

@@ -11,7 +11,7 @@
     background-color: var(--background-color-accent);
 }
 
-.hero__title {
+&__title {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -27,7 +27,7 @@
 }
 
 /*hero-button*/
-.hero__button {
+&__button {
     display: flex;
     padding: 10px 32px;
     margin: 0 auto;
@@ -49,8 +49,8 @@
     transition-timing-function: var(--transition-cubic-bezier), var(--transition-cubic-bezier);
 }
 
-.hero__button:hover,
-.hero__button:focus {
+&__button:hover,
+&__button:focus {
     color: var(--title-text-color);
     background-color: var(--background-color-secondary);
     border-color: transparent;

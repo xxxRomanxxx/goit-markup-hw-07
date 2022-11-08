@@ -3,7 +3,7 @@
     padding-bottom: 94px;
 }
 
-.work__title {
+&__title {
     margin-bottom: 50px;
 
     text-align: center;
@@ -12,18 +12,18 @@
     line-height: 1.17;
 }
 
-.work__list {
+&__list {
     display: flex;
     padding-left: 0;
     gap: 30px;
     list-style: none;
 }
 
-.work__thumb {
+&__thumb {
     position: relative;
 }
 
-.work__description {
+&__description {
     display: flex;
     position: absolute;
     bottom: 0;

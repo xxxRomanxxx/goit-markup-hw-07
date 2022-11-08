@@ -3,7 +3,7 @@
     padding-bottom: 94px;
 }
 
-.clients__title {
+&__title {
     margin-bottom: 50px;
 
     text-align: center;
@@ -12,7 +12,7 @@
     line-height: 1.17;
 }
 
-.clients__list {
+&__list {
     display: flex;
     justify-content: center;
     align-items: center;

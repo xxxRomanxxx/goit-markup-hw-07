@@ -4,7 +4,7 @@
     background-color: var(--background-color-primary);
 }
 
-.advantage-studio__title {
+&__title {
     margin-bottom: 50px;
 
     text-align: center;
@@ -13,7 +13,7 @@
     line-height: 1.17;
 }
 
-.advantage-studio__list {
+&__list {
     display: flex;
     min-width: 270px;
     padding-left: 0;
