@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-&__span {
+.modal-checkbox__span {
 
     color: var(--primary-text-color);
     font-weight: 400;
@@ -13,14 +13,14 @@
     line-height: 1.71;
 }
 
-&__link {
+.modal-checkbox__link {
     color: var(--accent-text-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
 
-&__svg {
+.modal-checkbox__svg {
     margin-right: 7px;
 
     fill: var(--accent-text-color);
@@ -31,7 +31,7 @@
     transition-timing-function: var(--transition-cubic-bezier), var(--transition-cubic-bezier);
 }
 
-&__input:checked~.modal-checkbox_svg {
+.modal-checkbox__input:checked~.modal-checkbox_svg {
     background-color: var(--accent-text-color);
     border-color: var(--accent-text-color);
 }

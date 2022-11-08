@@ -1,12 +1,8 @@
-.mailing {
-
-}
-
-&__form {
+.mailing__form {
     margin-left: 93px;
 }
 
-&__text {
+.mailing__text {
     margin-bottom: 20px;
 
     text-transform: uppercase;
@@ -15,7 +11,7 @@
     line-height: 1.14;
 }
 
-&__input {
+.mailing__input {
     margin-right: 12px;
     padding-left: 16px;
     width: 358px;
@@ -27,7 +23,7 @@
     border-radius: 4px;
 }
 
-&__button {
+.mailing__button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -49,11 +45,12 @@
     transition-property: color, background-color, fill;
     transition-duration: 250ms, 250ms, 250ms;
     transition-timing-function: var(--transition-cubic-bezier), var(--transition-cubic-bezier), var(--transition-cubic-bezier);
+
+        &:hover {
+            color: var(--title-text-color);
+            background-color: var(--background-color-secondary);
+            fill: var(--title-text-color);
+            border-color: transparent;
+        }
 }
 
-&__button:hover {
-    color: var(--title-text-color);
-    background-color: var(--background-color-secondary);
-    fill: var(--title-text-color);
-    border-color: transparent;
-}

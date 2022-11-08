@@ -7,7 +7,7 @@
     list-style: none;
 }
 
-&__link {
+.social-list__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -19,11 +19,12 @@
     transition-property: fill, background-color;
     transition-duration: 250ms, 250ms;
     transition-timing-function: var(--transition-cubic-bezier), var(--transition-cubic-bezier);
+
+        &:hover,
+        &:focus {
+            fill: var(--white-text-color);
+            background-color: var(--accent-text-color);
+    
+        }
 }
 
-&__link:hover,
-&__link:focus {
-    fill: var(--white-text-color);
-    background-color: var(--accent-text-color);
-
-}

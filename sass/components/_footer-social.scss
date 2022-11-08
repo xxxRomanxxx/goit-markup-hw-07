@@ -1,8 +1,4 @@
-.footer-social {
-
-}
-
-&__text {
+.footer-social__text {
     margin-bottom: 20px;
 
     text-transform: uppercase;
@@ -11,13 +7,13 @@
     line-height: 1.14;
 }
 
-&__list {
+.footer-social__list {
     display: flex;
     gap: 10px;
     list-style: none;
 }
 
-&__link {
+.footer-social__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -29,9 +25,10 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: var(--transition-cubic-bezier);
+
+        &:hover,
+        &:focus {
+            background-color: var(--accent-text-color);
+        }
 }
 
-&__link:hover,
-&__link:focus {
-    background-color: var(--accent-text-color);
-}

@@ -8,7 +8,7 @@
     gap: 50px;
 }
 
-&__link {
+.auth-nav__link {
     display: flex;
     align-items: center;
     fill: var(--primary-text-color);
@@ -22,14 +22,15 @@
     transition-property: color, fill;
     transition-duration: 250ms, 250ms;
     transition-timing-function: var(--transition-cubic-bezier), var(--transition-cubic-bezier);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-text-color);
+            fill: var(--accent-text-color);
+        }
 }
 
-&__link:hover,
-&__link:focus {
-    color: var(--accent-text-color);
-    fill: var(--accent-text-color);
-}
 
-&__icon {
+.auth-nav__icon {
     margin-right: 10px;
 }

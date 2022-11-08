@@ -4,7 +4,7 @@
     background-color: var(--background-color-secondary);
 }
 
-&__title {
+.command__title {
     margin-bottom: 50px;
 
     text-align: center;
@@ -13,7 +13,7 @@
     line-height: 1.17;
 }
 
-&__list {
+.command__list {
     display: flex;
     padding-left: 0;
     text-align: center;

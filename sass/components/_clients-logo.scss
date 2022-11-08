@@ -1,8 +1,4 @@
-.clients-logo {
-
-}
-
-&__link {
+.clients-logo__link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -17,10 +13,11 @@
     transition-property: fill, border-color;
     transition-duration: 250ms, 250ms;
     transition-timing-function: var(--transition-cubic-bezier), var(--transition-cubic-bezier);
+
+        &:hover,
+        &:focus {
+            fill: var(--accent-text-color);
+            border-color: var(--accent-text-color);
+        }
 }
 
-&__link:hover,
-&__link:focus {
-    fill: var(--accent-text-color);
-    border-color: var(--accent-text-color);
-}

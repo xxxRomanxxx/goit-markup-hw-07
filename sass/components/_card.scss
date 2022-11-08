@@ -4,19 +4,20 @@
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: var(--transition-cubic-bezier);
+    
+        &:hover,
+        &:focus {
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
 }
 
-.card:hover,
-.card:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 
-&__thumb {
+.card__thumb {
     position: relative;
     overflow: hidden;
 }
 
-&__description {
+.card__description {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -29,25 +30,27 @@
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: var(--transition-cubic-bezier);
+
+    .card:hover & {
+            transform: translateY(0);
+        }
 }
 
-.card:hover &__description {
-    transform: translateY(0);
-}
 
-&__title {
+
+.card__title {
     font-size: 18px;
     line-height: 1.55;
 }
 
-&__block {
+.card__block {
     padding: 20px 24px;
     border-bottom: 1px solid var(--border-color-portfolio);
     border-left: 1px solid var(--border-color-portfolio);
     border-right: 1px solid var(--border-color-portfolio);
 }
 
-&__name {
+.card__name {
     margin-bottom: 4px;
 
     color: var(--title-text-color);
@@ -59,7 +62,7 @@
     letter-spacing: 0.06em;
 }
 
-&__text {
+.card__text {
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
     font-weight: 400;
