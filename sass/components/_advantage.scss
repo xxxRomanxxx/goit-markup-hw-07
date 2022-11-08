@@ -1,8 +1,4 @@
-.advantage {
-
-}
-
-.advantage-studio__img {
+.advantage__img {
     display: flex;
     width: 270px;
     height: 120px;
@@ -14,7 +10,7 @@
     border-radius: 4px;
 }
 
-.advantage-studio__title {
+.advantage__title {
     margin-bottom: 10px;
 
     text-transform: uppercase;
@@ -23,7 +19,7 @@
     line-height: 1.14;
 }
 
-.advantage-studio__text {
+.advantage__text {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 14px;

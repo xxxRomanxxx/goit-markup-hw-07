@@ -5,7 +5,8 @@
 білий колір #FFFFFF
 синій колір #2196F3
 колір футера адреса і телефона rgba(255, 255, 255, 0.6) 
-колір фону 1 секції #2F303A 
+колір фону 1 секції #2F303A
+$ 
 */
 :root {
   --primary-text-color: #757575;
@@ -321,7 +322,7 @@ header {
   gap: 30px;
 }
 
-.advantage-studio__img {
+.advantage__img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,7 +339,7 @@ header {
   border-radius: 4px;
 }
 
-.advantage-studio__title {
+.advantage__title {
   margin-bottom: 10px;
   text-transform: uppercase;
   font-weight: 700;
@@ -346,7 +347,7 @@ header {
   line-height: 1.14;
 }
 
-.advantage-studio__text {
+.advantage__text {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
