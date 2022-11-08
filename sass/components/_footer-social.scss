@@ -1,0 +1,33 @@
+.footer-social__text {
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.footer-social__list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.footer-social__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    fill: var(--white-text-color);
+    background-color: var(--background-footer-color-icon);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-cubic-bezier);
+}
+
+.footer-social__link:hover,
+.footer-social__link:focus {
+    background-color: var(--accent-text-color);
+}
