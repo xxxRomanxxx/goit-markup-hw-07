@@ -1,59 +1,53 @@
-.foter-contact__list {
-    list-style: none;
-}
+.footer-contact {
 
-.foter-contact__logo {
-    display: block;
-    margin-bottom: 20px;
-
-    color: var(--white-text-color);
-    font-family: Raleway, sans-serif;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-}
-
-.foter-contact__lable {
-    color: var(--accent-text-color);
-}
-
-.foter-contact__link {
-    color: var(--footer-adress-color);
-    text-decoration: none;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: var(--transition-cubic-bezier);
-
-        &:hover,
-        &:focus {
-            color: var(--accent-text-color);
+    &__list {
+            list-style: none;
         }
-}
 
-.foter-contact__item {
-    margin-right: 70px;
+    &__item {
+            margin-right: 70px;
     
-    &:not(:last-child) {
-            margin-bottom: 9px;
+            &:not(:last-child) {
+                margin-bottom: 9px;
+            }
+        }
+
+    &__link {
+            color: var(--footer-adress-color);
+            text-decoration: none;
+            font-family: Roboto, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: var(--transition-cubic-bezier);
+    
+            &:hover,
+            &:focus {
+                color: var(--accent-text-color);
+            }
+        }
+
+    &__text {
+            color: var(--white-text-color);
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: var(--transition-cubic-bezier);
+    
+            &:hover,
+            &:focus {
+                color: var(--accent-text-color);
+            }
         }
 }
 
-.foter-contact__text {
-    color: var(--white-text-color);
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: var(--transition-cubic-bezier);
-        
-        &:hover,
-        &:focus {
-            color: var(--accent-text-color);
-        }
-}
+
+
+
+
+
+
 

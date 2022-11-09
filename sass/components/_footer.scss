@@ -3,9 +3,10 @@
 
     background-color: var(--background-color-accent);
     color: var(--white-text-color);
+
+    &__container {
+            display: flex;
+            align-items: baseline;
+        }
 }
 
-.footer__container {
-    display: flex;
-    align-items: baseline;
-}

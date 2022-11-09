@@ -5,6 +5,11 @@ body {
     letter-spacing: 0.03em;
 }
 
+header {
+    padding: 24px 0;
+    border-bottom: 1px solid var(--border-color-heder);
+}
+
 h1,
 h2,
 h3,

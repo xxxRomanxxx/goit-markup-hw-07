@@ -10,10 +10,10 @@
     transition-duration: 250ms, 250ms;
     transition-timing-function: var(--transition-cubic-bezier), var(--transition-cubic-bezier);
 
+    &--hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
 }
 
-.backdrop--hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
